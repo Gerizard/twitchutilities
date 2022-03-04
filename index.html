@@ -1,4 +1,285 @@
 <html>
-<body> Hello world</body>
+  <head>
+    <style>
+      /*FONT IMPORT*/ @import url('https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:400,700|Oxygen|Raleway');
+
+/*BODY*/ body { margin: 0; font-family: "Raleway", Open Sans; font-size: 12px; line-height: 1.5; color: #1a191a; background-color: #fff; }
+/*BODY*/ * { box-sizing: border-box; }
+/*BODY */ body { color: rgba(255, 255, 255, 0.65); background-color: #2b2a2b; background-repeat: repeat-x; background-position: center 0, 0 0, 0 0; }
+
+/*TABLE*/ table { border-spacing: 0; border-collapse: collapse; }
+/*TABLE*/ td, th { padding: 0; }
+
+/*LIST*/ ul, ol { padding-left: 0; margin-top: 0; margin-bottom: 0; }
+
+/*H'S*/ h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0;}
+/*H'S*/ h1 { font-size: 32px; font-weight: 600; }
+/*H'S*/ h2 { font-size: 24px; font-weight: 600; }
+/*H'S*/ h3 { font-size: 20px; font-weight: 600; }
+/*H'S*/ h4 { font-size: 16px; font-weight: 600; }
+/*H'S*/ h5 { font-size: 14px; font-weight: 600; }
+/*H'S*/ h6 { font-size: 12px; font-weight: 600; }
+
+/*P&A*/ p { margin-top: 0; margin-bottom: 10px; }
+/*P&A*/ a { color: #ffffff; text-decoration: none; }
+/*P&A*/ a:hover, a:active { text-decoration: none; }
+
+/*===============================================================================================*/
+
+/* Header */
+/*DIVTOP*/ .top { background: #ef5350; height: 180px; border-top: 20px solid #a53f3f; }
+/*DIV1*/.container-new2 { background-color: #cf4f4f;}
+/*DIV1*/.py-6 { padding-top: 40px !important; padding-bottom: 40px !important; }
+/*DIV1*/.px-3 { padding-right: 16px !important; padding-left: 16px !important; }
+/*DIV1*/.text-center { text-align: center !important; }
+
+/*===============================================================================================*/
+/* Header navigation */
+/*UL*/.list-style-none { list-style: none !important; }
+/*UL*/.d-flex { display: flex !important; }
+/*UL*/.flex-justify-center { justify-content: center !important; }
+/*UL*/.f4 { font-size: 16px !important; }
+
+/* Header navigation list items */
+/*A CLASS*/.d-inline-block { display: inline-block !important; }
+/*A CLASS*/.m-2 { margin: 8px !important; }
+/*FOR CURRENT PAGE*/.current { color: rgba(255, 255, 255, 0.65); }
+
+/*===============================================================================================*/
+
+/* Title */
+/*DIV1*/.col-md-8 { width: 66.66667%; }
+/*DIV1*/.mx-auto { margin-right: auto !important; margin-left: auto !important; }
+
+/*DIV2*/.padding16 { padding: 16px !important; }
+/*DIV2*/.margin24 { margin-bottom: 24px !important; }
+
+/*H1 CLASS*/.f1-light { font-size: 26px !important; font-weight: 300 !important; }
+/*H1 CLASS*/.text-white { color: #fff !important; }
+
+/*DESC P - NONE*/
+/*===============================================================================================*/
+
+/*RELEASE NOTES*/
+
+/*DIV1*/ #release-notes {}
+
+/*SECTION*/ .release-note header h2 { max-width: 100% !important; }
+/*SECTION*/ .position-relative { position: relative !important; }
+/*SECTION*/ .text-left { text-align: left !important; }
+/*SECTION*/ .container-new { max-width: 980px; margin-right: auto; margin-left: auto; }
+/*SECTION - Following are already present on Stylesheet:+ py-6 + px-3 */
+
+/*HEADER*/ .release-note:first-of-type .timeline-decorator::before { background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 50px); }
+/*HEADER*/.release-note:last-of-type .timeline-decorator::before { background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); }
+/*HEADER*/.timeline-decorator::before { content: ""; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)); width: 3px; position: absolute; top: 0; bottom: 0; left: calc((65px / 2) + 16px); z-index: -1; }
+/* HEADER - Following are already present on Stylesheet: release-note */
+
+/*SPAN*/ .version-badge { width: 65px; text-align: center; }
+/*SPAN*/.bg-cf4f { background-color: #cf4f4f !important; }
+/*SPAN*/.p-1 { padding: 4px !important; }
+/*SPAN*/.rounded-1 { border-radius: 3px !important; }
+/*SPAN*/.mr-2 { margin-right: 8px !important; }
+/*SPAN*/.text-bold { font-weight: 600 !important; }
+/*SPAN - Following are already present on Stylesheet: d-inline-block */
+
+/*H2*/ .f3-light { font-size: 18px !important; font-weight: 300 !important; }
+/*H2*/.css-truncate.css-truncate-target, .css-truncate .css-truncate-target { display: inline-block; max-width: 125px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: top; }
+/*H2*/.css-truncate.expandable.zeroclipboard-is-hover .css-truncate-target, .css-truncate.expandable.zeroclipboard-is-hover.css-truncate-target, .css-truncate.expandable:hover .css-truncate-target, .css-truncate.expandable:hover.css-truncate-target { max-width: 10000px !important; }
+
+/*UL*/  .change-log { margin-left: 74px; }
+/*UL - Following are already present on Stylesheet: list-style-none*/
+
+/*LI*/ .mb-2 { margin-bottom: 8px !important; }
+/*LI - Following are already present on Stylesheet: d-flex*/
+
+/*DIV1*/ .change-badge { background-color: #0366d6; display: inline; flex: 0 0 65px; font-size: 10px; font-weight: 600; border-radius: 3px; margin-right: 8px; padding: 2px 5px; text-transform: uppercase; text-align: center; }
+
+/*DIV1 NEW/ADDED*/.change-badge-new, .change-badge-added { background-color: #28a745; }
+/*DIV1 FIXED/IMPROVED*/.change-badge-fixed, .change-badge-improved { background-color: #0366d6; }
+/*DIV1 REMOVED*/.change-badge-removed { background-color: #d73a49; }
+
+/*DIV2 - NONE*/
+
+/*===============================================================================================*/
+
+/*FOOTER*/ #page-footer { display: none; }
+/*FOOTER*/ #custom-footer { display: block; padding: 20px 0 0 0; background-color: #212121; text-align: center; }
+/*FOOTER*/ #custom-footer .media-block { padding: 10px; }
+/*FOOTER*/ #custom-footer .media-block .media-link { display: inline-block; font-size: 0; margin: 0 5px; }
+/*FOOTER*/ #custom-footer .media-block .media-link img { width: 45px; height: 45px; transform: scale(1); transition: all 0.2s ease-in-out; }
+/*FOOTER*/ #custom-footer .media-block .media-link img:hover { transform: scale(1.1); }
+/*FOOTER*/ #custom-footer .media-block .media-link.discord-link img { width: 37px; height: 37px; padding: 4px;}
+/*FOOTER*/ #custom-footer .text { color: #eee; font-size: 15px; padding: 10px; }
+/*FOOTER*/ #custom-footer .help-block { padding: 10px; }
+/*FOOTER*/ #custom-footer .help-block .help-button { display: inline-block; padding: 10px 0; min-width: 150px; color: #eee; font-size: 14px; background-color: #343434; border-radius: 17px; margin: 0 10px;}
+/*FOOTER*/ #custom-footer .help-block .help-button:hover { background-color: #424242; }
+/*FOOTER*/ #custom-footer .copyright-block { font-size: 12px; line-height: 16px; margin-top: 15px; padding: 10px; background-color: #171717; }
+/*FOOTER*/ #custom-footer .copyright-block i.material-icons { font-size: 12px; line-height: 14px; vertical-align: top; }
+
+#custom-footer .media-block .media-link.discord-link img {
+    width: 45px;
+    height: 45px;
+    padding: 4px;
+}
+    </style>
+  </head>
+<body>
+    <div class="top"><header>
+    <div class="container-new2 py-6 px-3 text-center">
+      <a href="/">
+        <h1>Nasclub</h1>
+      </a>
+      <ul class="nav list-style-none d-flex flex-justify-center f4">
+        <li>
+          <a class="d-inline-block m-2" href="/blog">Blog</a>
+        </li>
+        <li>
+          <a class="d-inline-block m-2 current" href="/updates">Release Notes</a>
+        </li>
+        <li>
+          <a class="d-inline-block m-2" href="/support">Help</a>
+        </li>
+      </ul>
+
+      </div></div>
+  </header>
+  <br>
+
+  <div class="container-new">
+    <div class="col-md-8 mx-auto">
+      <div class="padding16 margin24">
+        <h1 class="f1-light text-white ">
+    Update notes for&nbsp;Nasclub
+  </h1>
+        <p>
+          View release notes for <a href="/updates">Nasclub</a>
+        </p>
+      </div>
+
+      <div id="release-notes">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-cf4f p-1 rounded-1 mr-2 text-bold">0.4.1</span>
+            <h2 class="f3-light css-truncate css-truncate-target">June 4th 2017</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div>Custom themes will no longer persist when logged out.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">Reworked automated system build for custom themes.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">Added configuration array for easier changes to custom themes.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Fixed</div>
+              <div class="change-description">Removed redundant CSS.</div>
+            </li>
+          </ul>
+        </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-cf4f p-1 rounded-1 mr-2 text-bold">0.2.1</span>
+            <h2 class="f3-light css-truncate css-truncate-target">April 3rd 2017</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex mb-2">
+              <div class="change-badge change-badge-new">New</div>
+              <div>Added a new footer.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">Improved/New</div>
+              <div class="change-description">New, clean, and touch friendly navigation bar.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">Re-wrote Terms of Service.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">Re-wrote privacy agreement.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">Re-wrote purchasing agreement.</div>
+            </li>
+          </ul>
+        </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3"><span class="version-badge d-inline-block bg-cf4f p-1 rounded-1 mr-2 text-bold">0.1.2</span>
+            <h2 class="f3-light css-truncate css-truncate-target">April 2nd 2017</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">New</div>
+              <div class="change-description">Added a new theme called "Black Sky".</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-removed">Removed</div>
+              <div class="change-description">Suspended the live debate program.</div>
+          </ul>
+        </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3"><span class="version-badge d-inline-block bg-cf4f p-1 rounded-1 mr-2 text-bold">0.1.1</span>
+            <h2 class="f3-light css-truncate css-truncate-target">February 28th 2017</h2></header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">New</div>
+              <div class="change-description">Added an awesome theme selector.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-new">New</div>
+              <div class="change-description">Added a live debate program.</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">Changed the forum categories. - <a href="https://goo.gl/2FUyIV">#0001</a></div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  
+<div id="custom-footer">
+    <div class="custom-footer-wrapper">
+        <div class="media-block">
+            <a class="media-link" href="https://twitter.com/nasclubdebates">
+                <img src="https://s3.amazonaws.com/files.enjin.com/851662/Footer_Images_Optimised/Twitter-min.png" />
+            </a>
+            <a class="media-link" href="https://www.youtube.com/channel/UCvUrSp0TTR2I05dS4GVdkdA">
+                <img src="https://s3.amazonaws.com/files.enjin.com/851662/Footer_Images_Optimised/Youtube-min.png" />
+            </a>
+            <a class="media-link" href="https://www.twitch.tv/nasclubdebates">
+                <img src="https://s3.amazonaws.com/files.enjin.com/851662/Footer_Images_Optimised/Twitch-min.png" />
+            </a>
+            <a class="media-link discord-link" href="https://discord.gg/aGNz5KE">
+                <img src="https://s3.amazonaws.com/files.enjin.com/851662/Footer_Images_Optimised/Discord-min.png"/>
+            </a>
+        </div>
+        <div class="text">
+            Have any questions or need assistance?
+        </div>
+        <div class="help-block">
+            <a class="help-button" href="/support">
+                SUPPORT
+            </a>
+            <a class="help-button" href="/STORE">
+                STORE
+            </a>
+        </div>
+        <div class="copyright-block">
+            <i class="material-icons">copyright</i> 2017 Nasclub CO<br>
+            Hosted by <a href="http://www.enjin.com/?ref=8617837">Enjin PTE LTD</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#custom-footer').appendTo('body');
+</script>
 
 </html>
