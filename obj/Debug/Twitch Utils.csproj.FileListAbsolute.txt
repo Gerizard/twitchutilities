@@ -1,0 +1,7 @@
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\Twitch Utils.csproj.AssemblyReference.cache
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\Twitch Utils.csproj.SuggestedBindingRedirects.cache
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\test_webview.Utils.resources
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\test_webview.Live.resources
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\twitch_utils.Properties.Resources.resources
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\Twitch Utils.csproj.GenerateResource.cache
+C:\Users\marzo\source\repos\twitchutils\obj\Debug\Twitch Utils.csproj.CoreCompileInputs.cache
