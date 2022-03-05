@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
   <version>0.0.0.0</version>
-  <url>https://rbsoft.org/downloads/AutoUpdaterTest.zip</url>
+  <url>https://github.com/Gerizard/twitchutilities/blob/main/twitchutils.zip?raw=true</url>
   <changelog>https://gerizard.github.io/twitchutilities/</changelog>
   <mandatory>true</mandatory>
 </item>
