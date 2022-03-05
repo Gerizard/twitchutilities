@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/Gerizard/twitchutilities/main/screenshots/PinClipart.com_clip-dj-mzik-indir_5201541.png" width="30" height="30"> Twitch Utilities
+# <img src="https://raw.githubusercontent.com/Gerizard/twitchutilities/main/screenshots/PinClipart.com_clip-dj-mzik-indir_5201541.png" width="30" height="30"> Twitch Utilities ©
 A WINDOWS app to have all your dashboards, Twitch and StreamElements, in the same page. This is the ULTIMATE STREAMER TOOL to have.  It includes Twitch Chat, Twitch Stream Info, Stream Preview and Twitch Events list and the Streamelements MediaShare and Events list.  
 I've always wanted to have the chat, events and Twitch stream info in the same place and this app is the culmination of an idea from time ago.
 ## Features
